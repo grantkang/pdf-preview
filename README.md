@@ -1,2 +1,2 @@
-# react-webpack-template
-My go-to template for new React projects
+# PDF-preview
+App built to explore PDF uploading/previewing. 
