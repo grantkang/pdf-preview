@@ -118,8 +118,12 @@
     "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "axios": "0.19.2",
     "dotenv": "8.2.0",
     "express": "4.17.1",
+    "gm": "1.23.1",
+    "multer": "1.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }

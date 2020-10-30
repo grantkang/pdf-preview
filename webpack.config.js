@@ -37,6 +37,12 @@ module.exports = {
       '/api': `http://localhost:${process.env.PORT}`
     },
     stats: 'minimal',
-    watchContentBase: true
+    watchContentBase: true,
+    watchOptions: {
+      ignored: [
+        path.resolve(__dirname, 'server/public/images'),
+        path.resolve(__dirname, 'server/public/documents')
+      ]
+    }
   }
 };
